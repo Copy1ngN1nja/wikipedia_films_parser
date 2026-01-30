@@ -13,8 +13,8 @@
 1. Установите [uv](https://github.com/astral-sh/uv)
 2. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/ваш-user/ваш-repo.git
-cd ваш-repo
+git clone https://github.com/Copy1ngN1nja/wikipedia_films_parser.git
+cd wikipedia_films_parser
 ```
 3. Создайте виртуальное окружение и установите зависимости:
 ```bash
@@ -25,4 +25,8 @@ uv sync
 cd parse_films
 cd parse_films
 scrapy crawl wiki_spider
+```
+или
+```bash
+python3 main.py
 ```
